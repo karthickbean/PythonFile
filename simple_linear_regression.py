@@ -22,28 +22,6 @@ regressor.fit(X_train, y_train)
 # Predicting the Test set results
 y_pred = regressor.predict(X_test)
 
-<<<<<<< HEAD
-=======
-# Visualising the Training set results
-plt.scatter(X_train, y_train, color = 'red')
-plt.plot(X_train, regressor.predict(X_train), color = 'blue')
-plt.title('Salary vs Experience (Training set)')
-plt.xlabel('Years of Experience')
-plt.ylabel('Salary')
-plt.show()
-
->>>>>>> dc269bcd1575dcd85853b2e7d5e647a2cdeabb95
-# Visualising the Test set results
-plt.scatter(X_test, y_test, color = 'red')
-plt.plot(X_train, regressor.predict(X_train), color = 'blue')
-plt.title('Salary vs Experience (Test set)')
-plt.xlabel('Years of Experience')
-plt.ylabel('Salary')
-<<<<<<< HEAD
-plt.show()
-
 # Jenkins
 print("Initial Build")
-=======
-plt.show()
->>>>>>> dc269bcd1575dcd85853b2e7d5e647a2cdeabb95
+
